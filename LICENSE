@@ -1,0 +1,41 @@
+Mountagent Desk Licence Agreement
+
+Copyright (c) 2026 Moundoo Solution. All rights reserved.
+
+Mountagent Desk ("the Software") is licensed, not sold. By installing or using it you
+agree to these terms.
+
+1. Free version. You may install and use the Software free of charge, for personal or
+   commercial work, within the limits of the free version (up to three agents at a time,
+   with one account each).
+
+2. Pro. A licence key bought from Moundoo Solution, or given by it, lets the person it was
+   issued to use the Software without those limits, on the Macs they use, up to the number
+   of activations the key allows. The licence is for that person: it may not be shared,
+   published, sold or transferred.
+
+3. Restrictions. You may not copy or redistribute the Software other than as downloaded
+   from its official page; modify, decompile or reverse engineer it, except where the law
+   allows this despite this restriction; or remove, bypass or tamper with its licence
+   checks.
+
+4. Agents and services. The Software runs command-line tools of third parties (such as
+   Claude Code, Codex, Cursor and GitHub Copilot) with your own accounts. Their terms and
+   charges apply to that use; Moundoo Solution is not affiliated with them.
+
+5. Third-party components. Parts of the Software are under their own licences, listed in
+   its About window (Sparkle, SwiftTerm, Primer Octicons).
+
+6. No warranty. The Software is provided "as is", without warranty of any kind, express or
+   implied, including fitness for a particular purpose and non-infringement. Agents change
+   files and run commands; keep backups and review their work.
+
+7. Limitation of liability. To the extent the law allows, Moundoo Solution is not liable
+   for any indirect, incidental or consequential damages, or loss of data or profits,
+   arising from the use of the Software. Its total liability is limited to the amount you
+   paid for the licence.
+
+8. Termination. This licence ends if you breach these terms. You must then stop using the
+   Software and remove it.
+
+Versions published before 30 October 2026 under the MIT License remain under that licence.

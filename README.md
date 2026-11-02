@@ -73,14 +73,12 @@ agent, with as many accounts as you like, for one payment and updates for life. 
 belongs to its buyer and works on the Macs they use; paste the key in Settings → General.
 
 **To buy Pro**, message us on [WhatsApp](https://wa.me/84357744542?text=Hi%2C%20I%27d%20like%20to%20buy%20Mountagent%20Desk%20Pro.)
-or [Zalo](https://zalo.me/0357744542) (+84 357 744 542) and we'll send you a key. In Vietnam you
-can also pay by bank transfer: Settings → General → Licence shows a VietQR code that any banking
-app scans, with the price and a note filled in. Card payment opens there once the store has been
-reviewed.
+or [Zalo](https://zalo.me/0357744542) (+84 357 744 542) and we'll send you a key. Card payment
+opens in Settings → General → Licence once the store has been reviewed.
 
-**Mua Pro tại Việt Nam:** 499.000 ₫, trả một lần. Nhắn [Zalo 0357 744 542](https://zalo.me/0357744542),
-hoặc chuyển khoản VietinBank bằng mã QR trong Settings → General → Licence, rồi nhắn Zalo kèm nội
-dung chuyển khoản để nhận key.
+**In Vietnam**, Pro is 499,000 ₫, paid once by bank transfer: Settings → General → Licence shows
+a VietQR code that any banking app scans, with the price and a note filled in. Then message us on
+Zalo with the note and we'll send you a key.
 
 ## Licence
 

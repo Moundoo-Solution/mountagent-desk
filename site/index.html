@@ -84,7 +84,7 @@ h1 { font-size: clamp(40px, 7vw, 72px); line-height: 1.02; letter-spacing: -0.03
 .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .fine { margin-top: 16px; font-size: 13px; color: var(--text-3); }
 .shot { margin: 56px auto 0; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: #18181b; }
-.shot img { width: 100%; height: auto; }
+.shot img, .shot video { width: 100%; height: auto; display: block; }
 
 /* Agents */
 .agents { padding: 40px 0 8px; text-align: center; }
@@ -176,6 +176,7 @@ footer a:hover { color: var(--text); }
   <div class="wrap">
     <a class="brand" href="#top"><img src="/assets/icon.png" alt="" width="28" height="28">Mountagent Desk</a>
     <div class="links">
+      <a href="#video">Video</a>
       <a href="#features">Features</a>
       <a href="#pricing">Pricing</a>
       <a href="#install">Install</a>
@@ -186,7 +187,7 @@ footer a:hover { color: var(--text); }
 
 <header class="hero" id="top">
   <div class="wrap">
-    <span class="eyebrow"><b>New</b> Pin questions and replies, and keep the question in view</span>
+    <span class="eyebrow"><b>New</b> In Vietnamese and French, and two ways to save tokens</span>
     <h1>Every coding agent, one desk.</h1>
     <p class="lead">Claude Code, Codex, Cursor, GitHub Copilot, Antigravity, Gemini CLI and OpenCode in one native Mac window. Signed in with your own accounts, so it costs nothing beyond the plans you already have.</p>
     <div class="cta">
@@ -210,6 +211,17 @@ footer a:hover { color: var(--text); }
   </div>
 </div>
 
+<section id="video">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">See it in action</div>
+      <h2>One minute of the real app.</h2>
+      <p>Switching sessions, four panes at once, <kbd>⌘K</kbd>, plan limits, Git and the token savers, clicked through for real.</p>
+    </div>
+    <div class="shot" style="margin-top:0"><video controls playsinline preload="none" poster="/assets/intro-poster.jpg" width="1920" height="1080"><source src="/assets/intro.mp4" type="video/mp4"></video></div>
+  </div>
+</section>
+
 <section id="features">
   <div class="wrap">
     <div class="head">
@@ -220,7 +232,7 @@ footer a:hover { color: var(--text); }
     <div class="grid">
       <article class="card">
         <div class="pic"><img src="/assets/failover.png" alt="Codex takes over after Claude Code runs out" loading="lazy"></div>
-        <div class="body"><h3>When one runs out, the next carries on</h3><p>See each agent's plan limits, when they reset and when they'd run out at your pace. If an agent runs out mid-turn, another account or agent picks the conversation up where it stopped.</p></div>
+        <div class="body"><h3>When one runs out, the next carries on</h3><p>See each agent's plan limits, when they reset and when they'd run out at your pace. If an agent runs out mid-turn, another account or agent picks the conversation up where it stopped; when only Opus or Fable ran out, a smaller Claude model goes on first.</p></div>
       </article>
       <article class="card">
         <div class="pic"><img src="/assets/revert.png" alt="A turn reverted, with Undo" loading="lazy"></div>
@@ -248,7 +260,15 @@ footer a:hover { color: var(--text); }
       </article>
       <article class="card">
         <div class="pic fit"><img src="/assets/usage.png" alt="Account and usage for each agent" loading="lazy"></div>
-        <div class="body"><h3>Limits and cost, at a glance</h3><p>Usage for every agent and account in the sidebar, a warning once a limit passes 90%, and what your sessions would have cost at API prices.</p></div>
+        <div class="body"><h3>Limits and cost, at a glance</h3><p>Usage for every agent and account in the sidebar, a warning once a limit passes 90%, and what this month's work would have cost at API prices.</p></div>
+      </article>
+      <article class="card">
+        <div class="pic"><img src="/assets/tokens.png" alt="Concise replies and compressed command output in Settings" loading="lazy"></div>
+        <div class="body"><h3>Save tokens, make limits last</h3><p>Concise replies keep agents to the point, with code, commands and errors in full. Claude Code can run shell commands through <a href="https://www.rtk-ai.app">RTK</a>, which trims long test, diff and log output before Claude reads it.</p></div>
+      </article>
+      <article class="card">
+        <div class="pic"><img src="/assets/languages.png" alt="Mountagent Desk in Vietnamese" loading="lazy"></div>
+        <div class="body"><h3>English, Vietnamese, French</h3><p>Pick the app's language in Settings, or let it follow your Mac. Agents still answer in whatever language you write to them in.</p></div>
       </article>
     </div>
     <div class="also">
@@ -257,6 +277,9 @@ footer a:hover { color: var(--text); }
       <div><b>Saved prompts</b>Type <kbd>/</kbd> for the prompts you use again and again.</div>
       <div><b>Images in the chat</b>Charts and screenshots an agent makes show up in the conversation.</div>
       <div><b>General</b>Chats that aren't about a folder, above your projects.</div>
+      <div><b>Four panes</b>Split the chat area in two or four, each pane its own session and agent.</div>
+      <div><b>Text size</b>Make the chat bigger or smaller with <kbd>⌘+</kbd> and <kbd>⌘−</kbd>.</div>
+      <div><b>Light, Dark or Dim</b>Three looks for the app, and a choice of colours for its terminals.</div>
       <div><b>Native and fast</b>Built in Swift for macOS, with updates from inside the app.</div>
     </div>
   </div>

@@ -22,7 +22,12 @@ request in one click, and cloning as in GitHub Desktop.
 
 The app shows each agent's plan limits, when they reset, and when they would run out at the
 current pace. It warns once a limit passes 90%, and when an agent runs out mid-turn, the next
-one carries on with the conversation so far.
+one carries on with the conversation so far. When only Opus or Fable ran out, a smaller
+Claude model goes on first.
+
+Two switches save tokens: concise replies, and Claude Code's shell commands run through
+[RTK](https://www.rtk-ai.app), which trims long test, diff and log output before Claude reads it.
+The app is in English, Vietnamese and French.
 
 Servers open as terminals in their project. Agents can't reach them, except read-only on the
 servers where you turn that on.
